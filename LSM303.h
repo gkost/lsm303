@@ -17,7 +17,7 @@ namespace beagleBoneBlack
 
     public:
         LSM303(unsigned int I2CBus, unsigned int I2CAddress=0x18);
-        virtual int readSensorData();
+        virtual void readSensorData();
 
         virtual short getAccelX() {return accelerationX;}
 
