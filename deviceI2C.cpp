@@ -7,9 +7,9 @@
 #include <stdio.h>
 #include <linux/i2c.h>
 #include <linux/i2c-dev.h>
-#include "deviceI2C.h"
-
-using namespace beagleBoneBlack
+#include <deviceI2C.h>
+using namespace std;
+namespace beagleBoneBlack
 {
     // Constructor of the class deviceI2C
     deviceI2C::deviceI2C(unsigned int busNumber, unsigned int deviceID)
