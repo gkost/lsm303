@@ -36,7 +36,7 @@ int main()
         perror("Failed to read in the buffer\n");
         return 1;
     }
-    print ("The Device OUT_X_L_A is: 0x%02x\n", readBuffer[OUT_X_L_A]);
+    printf("The Device OUT_X_L_A is: 0x%02x\n", readBuffer[OUT_X_L_A]);
     close (file);
     return 0;
 }
