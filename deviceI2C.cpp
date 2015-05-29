@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <linux/i2c.h>
 #include <linux/i2c-dev.h>
-#include <deviceI2C.h>
+#include "deviceI2C.h"
 
 using namespace beagleBoneBlack
 {
