@@ -1,7 +1,7 @@
 
 #ifndef LSM303_H_
 #define LSM303_H_
-#include "deviceI2C"
+#include "deviceI2C.h"
 
 #define BUFFER_SIZE 0xFF
 
